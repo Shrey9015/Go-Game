@@ -1,0 +1,5 @@
+Use The Following line below to compile and run the code :
+
+To Compile : g++ PlaceString.cpp BoardValue.cpp Board.cpp Move.cpp Search.cpp ArtificialIntelligence.cpp Game.cpp main.cpp -o game
+
+To Run : ./game
