@@ -20,6 +20,8 @@ int main()
 	}
 	cout << "Hello " << name << ".  You will play black." << endl;
 	cout << endl;
+	
+	cout << endl << "Basic Info:\nMinimum and the Maximum Size of the Board is 1 and 24 respectively.\n" << endl;
 
 	int board_size = askBoardSize();
 	assert(board_size >= BOARD_SIZE_MIN);
