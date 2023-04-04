@@ -442,6 +442,7 @@ void Board ::destroyData()
 
 bool Board ::isInvariantTrue() const
 {
+	// Can use below "return true", if program runs very slow.
 	// return true; // To Run Program Faster
 	if (board_size < BOARD_SIZE_MIN)
 		return false;
