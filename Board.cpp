@@ -442,6 +442,7 @@ void Board ::destroyData()
 
 bool Board ::isInvariantTrue() const
 {
+	// return true; // To Run Program Faster
 	if (board_size < BOARD_SIZE_MIN)
 		return false;
 	if (board_size > BOARD_SIZE_MAX)
